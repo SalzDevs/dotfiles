@@ -17,5 +17,8 @@ autoload -Uz compinit && compinit -C
 # Added by Antigravity CLI installer
 export PATH="/Users/ricardoceia/.local/bin:$PATH"
 
-# Simple Catppuccin Mocha prompt: grey block, teal user@host, green dir, pink %
-PROMPT='%K{#11111b} %F{#94e2d5}%n@%m%f %F{#a6e3a1}%1~%f %F{#f5c2e7}%#%f %k '
+# No "Last login" banner (needs ~/.hushlogin, created once below) and no mail check
+unset MAILCHECK
+
+# Simple Catppuccin Mocha prompt: crust block, teal user@host, green dir, pink %
+PROMPT='%K{#11111b}%F{#94e2d5}%n@%m%f %F{#a6e3a1}%1~%f %F{#f5c2e7}%#%f %k '
