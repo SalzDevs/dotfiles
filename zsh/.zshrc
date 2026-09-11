@@ -18,4 +18,4 @@ autoload -Uz compinit && compinit -C
 export PATH="/Users/ricardoceia/.local/bin:$PATH"
 
 # Simple Catppuccin Mocha prompt: grey block, teal user@host, green dir, pink %
-PROMPT='%K{#313244} %F{#94e2d5}%n@%m%f %F{#a6e3a1}%1~%f %F{#f5c2e7}%#%f %k '
+PROMPT='%K{#1e1e2e} %F{#94e2d5}%n@%m%f %F{#a6e3a1}%1~%f %F{#f5c2e7}%#%f %k '
