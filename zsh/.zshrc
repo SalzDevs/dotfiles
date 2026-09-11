@@ -20,5 +20,5 @@ export PATH="/Users/ricardoceia/.local/bin:$PATH"
 # No "Last login" banner (needs ~/.hushlogin, created once below) and no mail check
 unset MAILCHECK
 
-# Simple Catppuccin Mocha prompt: crust block, teal user@host, green dir, pink %
-PROMPT='%K{#11111b}%F{#94e2d5}%n@%m%f %F{#a6e3a1}%1~%f %F{#f5c2e7}%#%f %k '
+# Simple Catppuccin Mocha prompt: dark-blue rounded block, teal user@host, green dir, pink %
+PROMPT='%F{#1e3a5f}%K{#1e3a5f}%F{#94e2d5}%n@%m%f %F{#a6e3a1}%1~%f %F{#f5c2e7}%#%f%k%F{#1e3a5f}%f '
